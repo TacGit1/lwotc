@@ -324,7 +324,7 @@ static function bool IsUnitOnMission(XComGameState_Unit UnitState)
 	{
 		return true;
 	}
-
+	//Unneccessary to filter for specific units.
 	/*switch (UnitState.GetMyTemplateName())
 	{
 		case 'SparkSoldier':
